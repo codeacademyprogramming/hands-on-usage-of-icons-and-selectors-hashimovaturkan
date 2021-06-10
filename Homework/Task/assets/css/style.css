@@ -1,0 +1,118 @@
+@import "./fonts.css";
+@import "./iconFontStyle.css";
+@import "./iconStyle.css";
+html{
+  font-family:'Lato Hairline';
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  background-color: #24292e;
+  color: white;
+  padding: 15px 40px;
+  box-sizing: border-box;
+}
+header nav ul li, header nav{
+  display: inline-block;
+}
+header nav ul li a{
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+}
+header nav ul li a:hover{
+  color: rgb(161, 161, 161);
+}
+header nav ul{
+  list-style: none;
+}
+div.header-left-part{
+  display: inline-block;
+}
+header input{
+  margin-left: 20px;
+  background-color: inherit;
+  border: 1px solid rgb(126, 124, 124);
+  border-radius: 3px;
+  padding: 5px 10px;
+  width: 200px;
+}
+
+header input:focus{
+  width: 250px;
+}
+/*burda niye margin-right=0 islemedi*/
+div.header-right-part{
+  display: inline-block;
+  margin-left: 30%;
+  
+}
+/*burda ortalamag ucun height'i 100% verdim margin auto eledim ama height parentden 
+inheritance almadi*/
+div.header-left-part>div{
+  display: inline-block;
+  height: 100%;
+  margin:auto;
+  
+}
+div.header-right-part > div{
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+div.header-main-left{
+  display: inline-block;
+}
+div.header-main-right{
+  display: inline-block;
+}
+div.header-main-right> span{
+  display: inline-block;
+}
+div.header-main-upper p{
+  display: inline-block;
+  font-size: 20px;
+  color: blue;
+}
+div.header-main-upper{
+  padding: 10px 20px;
+}
+div.header-main-upper> div{
+  padding-top: 5px;
+  color: blue;
+}
+div.header-main-lower ul li{
+  display: inline-block;
+  margin: 10px;
+}
+
+span.addition-choose{
+  padding: 5px 10px;
+  background-color: khaki;
+  border-radius: 5px;
+}
+/*burdada margin right olmadi*/
+div.header-main-right{
+  margin-right: 0%;
+}
+main section{
+  display: inline-block;
+  background-color: lawngreen;
+  width: 60%;
+  margin: 30px 50px;
+}
+main aside{
+  display: inline-block;
+  background-color: red;
+  width: 30%;
+  margin-top: 30px;
+}
+footer{
+  background-color: lightblue;
+  width: 100%;
+}
