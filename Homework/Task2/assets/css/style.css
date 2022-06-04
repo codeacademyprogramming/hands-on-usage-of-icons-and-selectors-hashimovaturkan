@@ -1,0 +1,66 @@
+a:link{
+    color: black;
+}
+a:visited{
+    color: crimson;
+}
+a:hover{
+    background-color: cyan;
+}
+a:active{
+    color: lightgreen;
+}
+button:active{
+    padding:5px 50px;
+}
+input:checked + p{
+    display: none;
+}
+div:not(#div):hover{
+    background-color: royalblue;
+}
+input:nth-of-type(2){
+    background-color: saddlebrown;
+}
+input:nth-of-type(2):focus{
+    background-color: salmon;
+}
+p:only-child{
+    color: slateblue;
+}
+ul#first li:last-child{
+    background-color: darkgoldenrod;
+}
+ul#first li:first-child{
+    background-color: gray;
+}
+ul#second li:first-of-type{
+    background-color: gray;
+}
+ul#second li:last-of-type{
+    background-color: darkgoldenrod;
+}
+span::before{
+    content: "hello";
+}
+span::after{
+    content: "goodbye";
+}
+ul#third li:nth-child(2)::before{
+    content: "it is second child";
+}
+ul#third li:nth-last-child(2):before{
+    content: "it is the second element before the last";
+}
+ul#third div:nth-last-of-type(2):before{
+    content: "it is the second div element before the last";
+}
+p::selection{
+    background-color: darkseagreen;
+}
+p#birinci:target{
+    background-color: darkslategray;
+}
+p#ikinci:target{
+    background-color:brown;
+}
